@@ -1,25 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Visualiser les chiffres</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Sylvain Lapoix, datajournaliste #DATAGUEULE / Datactivist" />
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/datactivist.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/datactivist-fonts.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Visualiser les chiffres
+## rigueur - lecture - message
+### Sylvain Lapoix, datajournaliste #DATAGUEULE / Datactivist
+### Ensad, 27 juin 2018
+
 ---
-title: "Visualiser les chiffres"
-subtitle: "rigueur - lecture - message"
-author: "Sylvain Lapoix, datajournaliste #DATAGUEULE / Datactivist"
-date: "Ensad, 27 juin 2018"
-output:
-  SlidesDatactivist::moon_reader:
-    css: [default, datactivist, datactivist-fonts]
-    lib_dir: libs
-    nature:
-      highlightStyle: github
-      highlightLines: true
-      countIncrementalSlides: false
-params:
-  event: Ensad / dessin de presse - dataviz - 27/06/2018
-  slug: Ensad
----
+
 
 layout: true
   
 
-`r paste0("<div class='my-footer'><span>", params$event, "</span> <center><div class=logo><img src='https://github.com/datactivist/slides_datactivist/raw/master/inst/rmarkdown/templates/xaringan/resources/img/fond_noir_monochrome.png' width='100px'></center></span></div>")` 
+&lt;div class='my-footer'&gt;&lt;span&gt;Ensad / dessin de presse - dataviz - 27/06/2018&lt;/span&gt; &lt;center&gt;&lt;div class=logo&gt;&lt;img src='https://github.com/datactivist/slides_datactivist/raw/master/inst/rmarkdown/templates/xaringan/resources/img/fond_noir_monochrome.png' width='100px'&gt;&lt;/center&gt;&lt;/span&gt;&lt;/div&gt; 
 
 ---
 
@@ -71,7 +75,7 @@ Selon l'Organisation internationale des migrations, 3108 migrant·e·s ont trouv
 
 --
 
-- C'est qu' *Alberto Cairo* nomme la .red[**valeur fonctionnelle**]<sup>1</sup> de la datavisualisation.
+- C'est qu' *Alberto Cairo* nomme la .red[**valeur fonctionnelle**]&lt;sup&gt;1&lt;/sup&gt; de la datavisualisation.
 
 
 .footnote[[1] Cf. *The functional Art*, 2012, Alberto Cairo ;
@@ -391,5 +395,40 @@ class: inverse, center, middle
 # Merci !
 
 Contact : [sylvain@datactivist.coop](mailto:sylvain@datactivist.coop) ou [@sylvainlapoix](https://twitter.com/sylvainlapoix) sur Twitter
+    </textarea>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function() {
+  var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})();</script>
 
-
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+  }
+});
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
