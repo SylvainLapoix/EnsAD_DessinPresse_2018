@@ -244,13 +244,13 @@ L'autre risque courant est de multiplier les dimensions et axes de lecture jusqu
 
 ### 3è risque : l'excès d'esthétisme
 
-La tentation de mêler précision et esthétique peut produire de très beaux graphs ... trop compliqués pour être compris du premier coup.
+La tentation de mêler précision et esthétique peut produire de très beaux graphs... trop compliqués pour être compris du premier coup.
 
 --
 
 Ex. : un super papier, un très beau visuel mais un concept tordu ([source](https://pegasusdata.com/2012/11/25/opendata-copinage-au-gouvernement-quand-lanalyse-de-reseau-vient-en-aide-au-journalisme-dinvestigation/))
 
-![](./img/NebuleusePublicPrive.png)
+.reduite[![](./img/NebuleusePublicPrive.png)]
 
 
 ---
@@ -328,7 +328,7 @@ Ex. : Paris Match veille toujours à semer des focus ou à donner des clefs de l
 
 ---
 
-### La symoblique comme message
+### La symbolique comme message
 
 Le choix d'une représentation figurative allégorique plutôt que littérale peut constituer en soi l'angle d'une dataviz. Claire et bien choisie, la référence agit alors comme un sous-texte à l'image.
 
