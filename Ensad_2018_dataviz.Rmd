@@ -116,7 +116,8 @@ class: inverse, center, middle
 - L'encodage doit permettre :
 1. de comprendre **la nature** des données ;
 2. d'apprécier **le rapport** qu'elles entretiennent entre elles ;
-3. de saisir les points saillants et **phénomènes** clefs.
+3. de saisir les points saillants et **phénomènes** clefs ;
+4. le tout sans déperdition de sens.
 
 - Chacun de ces aspects repose sur des caractéristiques visuelles liées à des représentations.
 
@@ -127,7 +128,11 @@ class: inverse, center, middle
 .pull-left[![](./img/BlackBoys_NYT.png)
 ([source](https://www.nytimes.com/interactive/2018/03/19/upshot/race-class-white-and-black-men.html))]
 
-.pull-right[L'encodage doit permettre de saisir immédiatement le sens de chaque élément : où sont les points de données ? Que représentent-ils individuellement / collectivement ?]
+.pull-right[L'encodage doit permettre de saisir immédiatement le sens de chaque élément : où sont les points de données ? Que représentent-ils individuellement / collectivement ?
+
+*<small>Note :
+La dataviz explicite ici le phénomène lui-même. Il s'agit du point de départ de la démarche journalistique. Les causes, elles, sont explorées et détaillées dans le texte.
+Comme pour une illustration classique, la omplémentarité texte-image joue ici en s'adaptant à la complexité des phénomènes décrits.</small>*]
 
 ---
 
@@ -142,7 +147,9 @@ L'accumulation de données doit se faire de manière à décrire les rapports qu
 
 background-image: url("img/DataVizCatalogu.png")
 
+class: center, top
 
+Le [data visualisation catalogue](https://datavizcatalogue.com/) propose de chercher par type ou par fonction.
 
 ---
 
