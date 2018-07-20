@@ -2,7 +2,7 @@
 title: "Visualiser les chiffres"
 subtitle: "rigueur - lecture - message"
 author: "Sylvain Lapoix, datajournaliste #DATAGUEULE / Datactivist"
-date: "Ensad, 27 juin 2018"
+date: "Open Data Médias 2, 13/07/2018"
 output:
   SlidesDatactivist::moon_reader:
     css: [default, datactivist, datactivist-fonts]
@@ -12,8 +12,8 @@ output:
       highlightLines: true
       countIncrementalSlides: false
 params:
-  event: Ensad / dessin de presse - dataviz - 27/06/2018
-  slug: Ensad
+  event: CFI ODMédias 2 - dataviz - 13/07/2018
+  slug: CFI ODMédias 2
 ---
 
 layout: true
